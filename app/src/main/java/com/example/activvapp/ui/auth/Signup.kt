@@ -11,7 +11,6 @@ import androidx.compose.foundation.text.KeyboardOptions
 import androidx.compose.material3.*
 import androidx.compose.runtime.*
 import androidx.compose.ui.Modifier
-import androidx.compose.ui.focus.FocusRequester.Companion.createRefs
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.res.stringResource
 import androidx.compose.ui.text.input.ImeAction
@@ -25,12 +24,11 @@ import androidx.constraintlayout.compose.Dimension
 import androidx.navigation.NavHostController
 import androidx.navigation.compose.rememberNavController
 import com.example.activvapp.R
-import com.example.activvapp.data.Resource
+import com.example.activvapp.data.AuthenticationData.Resource
 import net.simplifiedcoding.navigation.ROUTE_LOGIN
 import net.simplifiedcoding.navigation.ROUTE_SIGNUP
 import com.example.activvapp.ui.theme.AppTheme
 import com.example.activvapp.ui.theme.spacing
-import kotlinx.coroutines.NonDisposableHandle.parent
 import net.simplifiedcoding.navigation.ROUTE_HOME
 
 @OptIn(ExperimentalMaterial3Api::class)

@@ -1,5 +1,6 @@
-package com.example.activvapp.data
+package com.example.activvapp.data.AuthenticationData
 
+import com.example.activvapp.data.AuthenticationData.Resource
 import com.google.firebase.auth.FirebaseUser
 
 interface AuthRepository {

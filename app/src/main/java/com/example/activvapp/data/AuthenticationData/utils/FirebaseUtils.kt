@@ -1,4 +1,4 @@
-package com.example.activvapp.data.utils
+package com.example.activvapp.data.AuthenticationData.utils
 
 import com.google.android.gms.tasks.Task
 import kotlinx.coroutines.suspendCancellableCoroutine

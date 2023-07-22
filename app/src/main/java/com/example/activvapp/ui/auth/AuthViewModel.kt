@@ -2,11 +2,9 @@ package com.example.activvapp.ui.auth
 
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.viewModelScope
-import com.example.activvapp.data.AuthRepository
-import com.example.activvapp.data.AuthRepositoryImpl
-import com.example.activvapp.data.Resource
+import com.example.activvapp.data.AuthenticationData.AuthRepository
+import com.example.activvapp.data.AuthenticationData.Resource
 import com.google.firebase.auth.FirebaseUser
-import com.google.firebase.ktx.Firebase
 import dagger.hilt.android.lifecycle.HiltViewModel
 import kotlinx.coroutines.flow.MutableStateFlow
 import kotlinx.coroutines.flow.StateFlow

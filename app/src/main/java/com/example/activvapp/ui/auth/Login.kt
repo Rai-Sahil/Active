@@ -20,7 +20,6 @@ import androidx.compose.ui.text.style.TextAlign
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.constraintlayout.compose.ConstraintLayout
 import androidx.constraintlayout.compose.Dimension
-import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.activvapp.R
 import net.simplifiedcoding.navigation.ROUTE_LOGIN
 import net.simplifiedcoding.navigation.ROUTE_SIGNUP
@@ -28,7 +27,7 @@ import com.example.activvapp.ui.theme.AppTheme
 import com.example.activvapp.ui.theme.spacing
 import androidx.navigation.NavController
 import androidx.navigation.compose.rememberNavController
-import com.example.activvapp.data.Resource
+import com.example.activvapp.data.AuthenticationData.Resource
 import net.simplifiedcoding.navigation.ROUTE_HOME
 
 @OptIn(ExperimentalMaterial3Api::class)

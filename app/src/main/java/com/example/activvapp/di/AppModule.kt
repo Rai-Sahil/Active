@@ -1,7 +1,7 @@
 package com.example.activvapp.di
 
-import com.example.activvapp.data.AuthRepository
-import com.example.activvapp.data.AuthRepositoryImpl
+import com.example.activvapp.data.AuthenticationData.AuthRepository
+import com.example.activvapp.data.AuthenticationData.AuthRepositoryImpl
 import com.google.firebase.auth.FirebaseAuth
 import dagger.Module
 import dagger.Provides

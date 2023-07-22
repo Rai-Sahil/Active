@@ -1,6 +1,6 @@
-package com.example.activvapp.data
+package com.example.activvapp.data.AuthenticationData
 
-import com.example.activvapp.data.utils.await
+import com.example.activvapp.data.AuthenticationData.utils.await
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.auth.FirebaseUser
 import com.google.firebase.auth.UserProfileChangeRequest
