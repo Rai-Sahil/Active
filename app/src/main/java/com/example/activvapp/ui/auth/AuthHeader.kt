@@ -25,23 +25,9 @@ fun AuthHeader() {
     ) {
         val spacing = MaterialTheme.spacing
 
-        Image(
-            modifier = Modifier
-                .size(128.dp, 128.dp),
-            painter = painterResource(id = R.drawable.ic_app_logo),
-            contentDescription = stringResource(id = R.string.app_name)
-        )
+        Image(painter = painterResource(id = R.drawable.activv_logo_big),
+        contentDescription = "Activv logo big")
 
-        Text(
-            modifier = Modifier
-                .fillMaxWidth()
-                .wrapContentHeight()
-                .padding(top = spacing.medium),
-            text = stringResource(id = R.string.app_name),
-            style = MaterialTheme.typography.headlineMedium,
-            textAlign = TextAlign.Center,
-            color = MaterialTheme.colorScheme.onSurface
-        )
     }
 }
 
